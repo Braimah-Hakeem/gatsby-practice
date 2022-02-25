@@ -4,6 +4,18 @@
     font-family: sans-serif;
   }
 
+.navItems {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+
+.navListItem {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 1.2rem;
+  }
+
 .siteTitle {
     font-size: 3rem;
     color: gray;
